@@ -1,0 +1,15 @@
+let \n "sdfsdf"
+
+let cat(a, b)
+	a .. b
+
+let title(x)
+	cat(
+		cat(
+			"# ",
+			x
+		),
+		\n
+	)
+
+title("test")
